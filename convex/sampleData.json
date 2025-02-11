@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Taylor Swift | The Eras Tour",
+    "description": "Beleef Taylor Swift's recordbrekende Eras Tour live!",
+    "price": 499.99,
+    "totalTickets": 100,
+    "location": "MetLife Stadium, New Jersey",
+    "eventDate": 1755381600000,
+    "userId": "user_2bFMHkGxZPWVVyJ5QEJQxfsCkxB"
+  },
+  {
+    "name": "NBA Finals 2025 - Game 1",
+    "description": "Beleef de opening van de NBA Finals!",
+    "price": 899.99,
+    "totalTickets": 50,
+    "location": "Madison Square Garden, New York",
+    "eventDate": 1749427200000,
+    "userId": "user_2bFMHkGxZPWVVyJ5QEJQxfsCkxB"
+  },
+  {
+    "name": "Hamilton - Broadway",
+    "description": "Mis de award-winnende musical niet!",
+    "price": 299.99,
+    "totalTickets": 75,
+    "location": "Richard Rodgers Theatre, New York",
+    "eventDate": 1753315800000,
+    "userId": "user_2dOPKmMyZRXXazL7SGLSzhsEmzD"
+  },
+  {
+    "name": "Coldplay World Tour",
+    "description": "Sluit aan bij Coldplay voor een onvergetelijke muziekavond!",
+    "price": 150.0,
+    "totalTickets": 200,
+    "location": "Wembley Stadium, Londen",
+    "eventDate": 1757540400000,
+    "userId": "user_2dOPKmMyZRXXazL7SGLSzhsEmzD"
+  },
+  {
+    "name": "Comic Con 2025",
+    "description": "De ultieme popcultuurconventie!",
+    "price": 85.0,
+    "totalTickets": 1000,
+    "location": "Javits Center, New York",
+    "eventDate": 1759702800000,
+    "userId": "user_2dOPKmMyZRXXazL7SGLSzhsEmzD"
+  },
+  {
+    "name": "Ed Sheeran Mathematics Tour",
+    "description": "Een intieme avond met Ed Sheeran en zijn grootste hits",
+    "price": 125.0,
+    "totalTickets": 150,
+    "location": "O2 Arena, Londen",
+    "eventDate": 1760912400000,
+    "userId": "user_2eRTLnPxYQWWbzM8THMTaisFnzE"
+  },
+  {
+    "name": "Premier League: Arsenal vs Manchester United",
+    "description": "Een klassieke Premier League-rivaliteit in het Emirates Stadium",
+    "price": 199.99,
+    "totalTickets": 60,
+    "location": "Emirates Stadium, Londen",
+    "eventDate": 1753920000000,
+    "userId": "user_2fQUMpNzXSVVczN9UINUbjsGozF"
+  },
+  {
+    "name": "Adele: Weekend with Adele",
+    "description": "Adele's spectaculaire Las Vegas-residentieshow",
+    "price": 450.0,
+    "totalTickets": 80,
+    "location": "Caesars Palace, Las Vegas",
+    "eventDate": 1756512000000,
+    "userId": "user_2gPVNqOyYTWWdzO0VJOVcktHpzG"
+  },
+  {
+    "name": "Wimbledon 2025 - Men's Final",
+    "description": "De ontknoping van het meest prestigieuze tennistoernooi ter wereld",
+    "price": 750.0,
+    "totalTickets": 40,
+    "location": "Centre Court, All England Club, Londen",
+    "eventDate": 1752042600000,
+    "userId": "user_2hQWOrPzZUXXezP1WKPWdluIqzH"
+  },
+  {
+    "name": "Harry Potter and the Cursed Child",
+    "description": "Het achtste verhaal uit de Harry Potter-serie komt tot leven op het podium",
+    "price": 175.0,
+    "totalTickets": 100,
+    "location": "Palace Theatre, Londen",
+    "eventDate": 1758758400000,
+    "userId": "user_2iRXPsQAaVYYfAQ2XLQXemvJrzI"
+  }
+]
