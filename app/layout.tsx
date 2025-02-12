@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
+// import localFont from 'next/font/local';
 import './globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { ConvexClientProvider } from '@/components/ConvexClientProvider';
@@ -7,16 +7,23 @@ import Header from '@/components/Header';
 import SyncUserWithConvex from '@/components/SyncUserWithConvex';
 import { Toaster } from '@/components/ui/toaster';
 
-const geistSans = localFont({
-  src: '../fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
+import { Lexend } from 'next/font/google';
+
+const lexend = Lexend({
+  weight: ['300', '600'],
+  subsets: ['latin'],
 });
-const geistMono = localFont({
-  src: '../fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
+
+// const geistMono = localFont({
+//   src: '../fonts/GeistMonoVF.woff',
+//   variable: '--font-geist-mono',
+//   weight: '100 900',
+// });
+// const geistSans = localFont({
+//   src: '../fonts/GeistSans.woff',
+//   variable: '--font-geist-sans',
+//   weight: '100 900',
+// });
 
 export const metadata: Metadata = {
   title: 'Event Tickets',
@@ -30,9 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={lexend.className}>
         <ConvexClientProvider>
           <ClerkProvider>
             <Header />
