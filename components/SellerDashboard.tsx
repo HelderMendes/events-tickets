@@ -16,7 +16,7 @@ import { CalendarDays, Cog, Plus } from 'lucide-react';
 import { createStripeConnectCustomer } from '@/app/actions/createStripeConnectCustomer';
 import { createStripeConnectAccountLink } from '@/app/actions/createStripeConnectAccountLink';
 
-function SellerDashboard() {
+export default function SellerDashboard() {
   const [accountCreatePending, setAccountCreatePending] = useState(false);
   const [accountLinkCreatePending, setAccountLinkCreatePending] =
     useState(false);
@@ -329,5 +329,3 @@ function SellerDashboard() {
     </div>
   );
 }
-
-export default SellerDashboard;

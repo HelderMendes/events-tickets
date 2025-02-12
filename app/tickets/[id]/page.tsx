@@ -2,6 +2,7 @@
 
 import Ticket from '@/components/Ticket';
 import { api } from '@/convex/_generated/api';
+import { Id } from '@/convex/_generated/dataModel';
 import { useUser } from '@clerk/nextjs';
 import { useQuery } from 'convex/react';
 import { ArrowLeft, Download, Share2 } from 'lucide-react';
