@@ -65,7 +65,6 @@ export async function createStripeCheckoutSession({
     {
       payment_method_types: ['card', 'ideal', 'multibanco', 'paypal'],
       mode: 'payment',
-
       line_items: [
         {
           price_data: {

@@ -8,8 +8,8 @@ export type Metrics = {
   soldTickets: number;
   refundedTickets: number;
   cancelledTickets: number;
-  // remainingTickets: number;
-  // totalTickets: number;
+  remainingTickets: number;
+  totalTickets: number;
   revenue: number;
 };
 
@@ -450,6 +450,9 @@ export const cancelEvent = mutation({
     const tickets = await ctx.db
       .query('tickets')
       .withIndex('by_event', (q) => q.eq('eventId', eventId))
+      .filter((q) =>
+        q.or(q.eq(q.field('status'), 'valid'), q.eq(q.field('status'), 'used')),
+      )
       .collect();
 
     if (tickets.length > 0) {
